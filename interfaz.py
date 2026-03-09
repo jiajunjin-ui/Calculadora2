@@ -41,7 +41,7 @@ class Ui_Dialog(object):
         self.salir.setGeometry(QRect(290, 200, 131, 51))
         self.textEdit = QTextEdit(Dialog)
         self.textEdit.setObjectName(u"textEdit")
-        self.textEdit.setGeometry(QRect(70, 10, 221, 61))
+        self.textEdit.setGeometry(QRect(130, 10, 221, 61))
         self.entrada1 = QLineEdit(Dialog)
         self.entrada1.setObjectName(u"entrada1")
         self.entrada1.setGeometry(QRect(20, 80, 261, 51))

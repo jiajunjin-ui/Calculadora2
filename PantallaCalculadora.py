@@ -10,6 +10,7 @@ class PantallaCalculadora(QtWidgets.QMainWindow, Ui_Dialog):
 
     def opera(self):
         pass
+
     def verifica(self):
         pass
 

@@ -10,12 +10,7 @@ class Calculadora:
         try:
             return a / b
         except ZeroDivisionError as e:
-            return (e)
-
-    def exponencial (self, a, b):
-        return a ** b
-    def modulo (self, a, b):
-        return a % b
+            return e
 
 if __name__ == '__main__':
     C = Calculadora()
@@ -23,6 +18,5 @@ if __name__ == '__main__':
     print(C.multiplicar(2, 3))
     print(C.dividir(2, 3))
     print(C.dividir(2, 0))
-    print(C.exponencial(2, 3))
-    print(C.modulo(2, 3))
+
 

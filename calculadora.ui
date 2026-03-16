@@ -297,5 +297,89 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>btsuma</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculadora</receiver>
+   <slot>opera()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>343</x>
+     <y>23</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btresta</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculadora</receiver>
+   <slot>opera()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btmulti</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculadora</receiver>
+   <slot>opera()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>340</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btdivi</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculadora</receiver>
+   <slot>opera()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>340</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btsalida</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculadora</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>308</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>opera()</slot>
+ </slots>
 </ui>

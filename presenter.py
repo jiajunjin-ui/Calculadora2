@@ -45,3 +45,4 @@ class Presenter:
             self.vista.salida(resultado)
         except Exception as e:
             self.vista.mensaje('Error', str(e))
+

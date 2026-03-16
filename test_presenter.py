@@ -39,3 +39,5 @@ if __name__ == "__main__":
     vista_falsa.btnmult.emit()
     print("Simulando click en botón div...")
     vista_falsa.btndiv.emit()
+
+

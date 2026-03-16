@@ -10,7 +10,7 @@ class Calculadora:
         v1: int | float
         v2: int | float
 
-        Returns
+        Returns.
         -------
         int | float
 

@@ -11,7 +11,7 @@ class Presenter:
         self.vista.btnresta.connect(self.fresta)
         self.vista.btnmult.connect(self.fmult)
         self.vista.btndiv.connect(self.fdiv)
-        # TODO: Conectar el resto de señales (btnresta, etc.)
+
 
     def fsuma(self):
         """Flujo de la operación suma [20, 22]."""
@@ -45,5 +45,3 @@ class Presenter:
             self.vista.salida(resultado)
         except Exception as e:
             self.vista.mensaje('Error', str(e))
-
-    # TODO: Implementar fresta(), fmult() y fdiv() [23], [22]

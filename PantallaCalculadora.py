@@ -1,21 +1,25 @@
 from PySide6 import QtWidgets
 
-from interfaz import Ui_Dialog
+# Se importa la clase generada por el comando pyside6-uic
+from ui_calculadora import Ui_Calculadora as form_class
 
 
-class PantallaCalculadora(QtWidgets.QMainWindow, Ui_Dialog):
+class Pantalla(QtWidgets.QMainWindow, form_class):
+    """
+    Clase básica que carga la interfaz generada por QtDesigner.
+    Utiliza herencia múltiple para extender QMainWindow [7], [8].
+    """
+
     def __init__(self, parent=None):
-        QtWidgets.QMainWindow.__init__(self, parent)
+        super().__init__(parent)
         self.setupUi(self)
 
-    def opera(self):
-        pass
-    def verifica(self):
-        pass
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     import sys
+    from PySide6 import QtWidgets
+
     app = QtWidgets.QApplication(sys.argv)
-    window = PantallaCalculadora()
-    window.show()
-    sys.exit(app.exec_())
+    pantalla = Pantalla()
+    pantalla.show()
+    sys.exit(app.exec())

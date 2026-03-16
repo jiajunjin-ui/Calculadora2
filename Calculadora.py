@@ -14,6 +14,7 @@ class Calculadora:
         -------
         int | float
 
+
         >>> c = Calculadora()
         >>> c.suma(2, 3)
         5
